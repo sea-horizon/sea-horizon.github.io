@@ -5,8 +5,8 @@ h2.ct{
   text-align: center;
 }
 body{
-  background-color: #071918;
-  text-shadow: 5px 5px 5px #FFFFFF;
+  background-color: #FFFFFF;
+  text-shadow: 5px 5px 5px #000000;
 }
 summary{
   cursor:pointer;
