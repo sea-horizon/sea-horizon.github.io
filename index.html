@@ -1,52 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta property="og:description" content="See!">
+   <meta property="og:description" content="See!">
     <meta name="author" content="sea-horion"> 
     <title>sea-horizon</title>
     <link rel="shortcut icon" href="favicon.ico" >
     <style>
-        body {text-shadow: 10px 10px 10px #AAAAAA;}
-        p {font-size: 30px;}
-        li {font-size: 30px;}
-        summary {font-size: 30px;}
+        #shadow {text-shadow: 10px 10px 10px #AAAAAA;}
+        #button
+        {
+            font-weight: bold;
+            font-size: 30px;color: white;
+            background: #272727;
+            padding: 10px 40px;
+            border-radius: 10rem;
+            float: left;
+            position: absolute;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        #button:hover
+        {
+            background-color: #FFF;
+            color:#272727;
+        }
+        #box {width: 100%;height: 65px;background: #24292E;margin:-10px -8px;position: fixed;box-shadow: 0 5px 30px #909090;}
+        #box p {font-size: large;color:#FFF;position:absolut;}
+        #box1 {width: 70%;height: 300px;background-color: white;margin: 0px auto;border-radius: 30px;box-shadow: 0 0px 20px #909090;}
+        #img {box-shadow: 0 0 10px #909090;margin: 0 70%;border-radius: 30px;}
+        #box2
+        {
+            position: absolute;width: 100%;height: 125px;background: #272c31;margin: -10px -8px;
+            text-align: center;color:rgba(255,255,255,0.3);
+            box-shadow: 0 -5px 30px #418290;
+        }
     </style>
 </head>
 <body>
-    <div style="opacity:0.5;position:absolute;left:250px;width:1250px;height:750px;background-color:#40B3DF"></div>
-    <div style="opacity:0.3;position:absolute;left:750px;width:500px;height:500px;background-color:rgba(0, 0, 255, 0.5)"></div>
-    <br><h2 style="margin-left:225px;font-size:50px;">welcome to</h2><br>
-    <div style="opacity:0.3;position:absolute;left:500px;width:500px;height:800px;background-color:#8AC007"></div>
-    <div style="opacity:0.3;position:absolute;left:950px;width:500px;height:500px;background-color:rgba(255, 0, 0, 0.5)"></div>
-    <h1 style="margin-left:225px;font-size:100px;">My personal website!</h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <p>my account:</p>
-    <p>|<a href="http://scratch.mit.edu/users/sea_horizon/" target="_blank">Scratch</a>|<a href="http://github.com/sea-horion/" target="_blank">GitHub|<a href="https://www.dotcpp.com/home/seahorizon" target="_blank">Dotcpp|</a>.</p>
-    <p>my wonderful Scratch games:</p>
-    <details>
-      <summary>games</summary>
-      <li><a href="https://scratch.mit.edu/projects/402412686/" target="_blank">Redemption</a></li>
-      <li><a href="https://scratch.mit.edu/projects/388592106/" target="_blank">games collection</a></li>
-      <li><a href="https://scratch.mit.edu/projects/395946803/" target="_blank">tank war</a></li>
-      <li><a href="https://scratch.mit.edu/projects/388602519/" target="_blank">civilization</a></li>
-    </details>
-    <details>
-    <summary>plugins</summary>
-      <li><a href="https://scratch.mit.edu/projects/398084671/" target="_blank">Elliptic orbit </a></li>
-      <li><a href="https://scratch.mit.edu/projects/398405338/" target="_blank">platformer</a></li>
-      <li><a href="https://scratch.mit.edu/projects/398159790/" target="_blank">gravity</a></li>
-      <li><a href="https://scratch.mit.edu/projects/398130165/" target="_blank">projectile launch</a></li>
-    </details>
-    <details>
-    <summary>art</summary>
-      <li><a href="https://scratch.mit.edu/projects/404361485/" target="_blank">zombie shooter</a></li>
-      <li><a href="https://scratch.mit.edu/projects/404362798/" target="_blank">roblox PIGGY</a></li>
-    </details>
-    <details>
-    <summary>3d</summary>
-      <li><a href="https://scratch.mit.edu/projects/402362281/" target="_blank">3D city</a></li>
-      <li><a href="https://scratch.mit.edu/projects/402625959/" target="_blank">Dynamic Maurer Rose</a></li>
-      <li><a href="https://scratch.mit.edu/projects/408407261/" target="_blank">3D shape</a></li>
-    </details>
+    <div id="box">
+        <div style="opacity:0.3;position:absolute;left:5px;width:25px;height:25px;background-color:#00F"></div><br>
+        <div style="opacity:0.3;position:absolute;left:20px;width:25px;height:25px;background-color:#F00"></div>
+    </div>
+    <br><br>
+    <div style="text-align:center;">
+        <h1>Welcome to</h1>
+        <h1>My personal website!</h1>
+    </div>
+    <br><br>
+    <div id="box1">
+        <h1 style="position: absolute;">Cube rotation</h1>
+        <button id="button" href="https://cube-rotation.glitch.me/">Play</button>
+        <img id="img" src="assets/cube rotation.png" height="300">
+    </div>
     <hr/>
-    <p><a href="https://github.com/sea-horion/sea-horion.github.io" target="_blank">See code on GitHub</a></p>
+    <div id="box2">
+        <p><a href="https://github.com/sea-horion/sea-horion.github.io" target="_blank">See code on GitHub</a></p>
+        <p>Made by Sea-horizon</p>
+        <p>©2020</p>
+    </div>
 </body>
+</html>
