@@ -1,4 +1,4 @@
-h1 {text-shadow: 10px 10px 10px #CCC;font-family: 'Open Sans', sans-serif;}
+h1 {text-shadow: 10px 10px 10px #CCC;}
 button
 {
     font-weight: bold;
@@ -16,8 +16,10 @@ button:hover
     background-color: #FFF;
     color:#272727;
 }
+button a{text-decoration:none;}
+button a:hover {color:#272727;}
 header {width: 100%;height: 65px;background: #24292E;margin:-10px -8px;position: fixed;box-shadow: 0 5px 30px #909090;}
-header p {font-size: large;color:#FFF;}
+header a {font-size: large;color:#FFF;text-decoration:none;}
 #box {width: 70%;height: 300px;background-color: white;margin: 0px auto;border-radius: 30px;box-shadow: 0 0px 20px #909090;}
 #img {width: 450px;height: 300px;box-shadow: 0 0 10px #909090;margin: 0 40%;border-radius: 30px;position:absolute;}
 footer {width: 100%;height: 125px;background: #272c31;margin: -10px -8px;text-align: center;color:rgba(255,255,255,0.3);box-shadow: 0 -5px 30px #418290;}
